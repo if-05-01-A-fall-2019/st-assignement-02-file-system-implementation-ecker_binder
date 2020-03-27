@@ -1,5 +1,5 @@
 ## What has to be done, when creating a file foo.txt?
-A new block has to be reserved and then the WriteBlock() operation creates the file.
+A new block has to be reserved and then the WriteBlock() operation creates the block.
 
 ## What has to be done, when the file size has to be increased? Especially take care if it needs additional blocks
 The first block has to be overwritten with WriteBlock().
@@ -11,7 +11,7 @@ The ReadBlock() searches for the file name and then the data is read from the bl
 The name gets searched in the block.
 
 ## What has to be done when the file size decreases? Especially take care if it needs fewer blocks
-The block gets updated.
+The block has to be updated.
 
 ## What has to be done when a file is deleted?
 The ReadBlock() operation searches for the file name and then once the flies are found, the name and data get deleted.
