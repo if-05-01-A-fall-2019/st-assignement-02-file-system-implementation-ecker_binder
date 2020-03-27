@@ -1,5 +1,6 @@
 ## What has to be do be done, when creating a file foo.txt?
-  New blocks have to be reserved. Most of the blocks are for the actual content.
+  New blocks have to be reserved (Goes through all blocks and locks if the are empty or not).
+  Most of the blocks are for the actual content.
   The first blocks are used to store where the file begins and which blocks belong to the file.
   The first blocks of disc are reserved for a file where the file names and the blocks with 
   the information for it are stored. (i will call it data file from now on) 
