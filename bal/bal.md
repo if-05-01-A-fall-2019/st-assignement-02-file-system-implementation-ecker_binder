@@ -11,7 +11,7 @@ The ReadBlock() searches for the file name and then the data is read from the bl
 The name gets searched in the block.
 
 ## What has to be done when the file size decreases? Especially take care if it needs fewer blocks
-The block in question has to be updated.
+The block in question has to be updated with WriteBlock().
 
 ## What has to be done when a file is deleted?
 The ReadBlock() operation searches for the file name and then once the flies are found, the name and data get deleted.
