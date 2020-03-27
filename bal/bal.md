@@ -8,7 +8,7 @@ The first block has to be overwritten with WriteBlock().
 The ReadBlock() searches for the file name and then the data is read from the block.
 
 ## What has to be done if you want to access foo.txt randomdly(seek())?
-The name gets searched in the block.
+The name gets searched in the block with ReadBlock().
 
 ## What has to be done when the file size decreases? Especially take care if it needs fewer blocks
 The block in question has to be updated with WriteBlock().
