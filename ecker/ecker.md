@@ -12,7 +12,7 @@
   The name of the file is searched in the data file then it reads the information and knows where the 
   blocks of the file are and reads them.
  
-## Whathas to be done if you want to access foo.txt randomdly?
+## What has to be done if you want to access foo.txt randomdly?
   The name of the file is searched in the data file then it reads the information and knows where the 
   blocks of the file are.
   
